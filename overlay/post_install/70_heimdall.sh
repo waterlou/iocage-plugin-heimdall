@@ -9,6 +9,6 @@ git clone https://github.com/linuxserver/Heimdall.git .
 
 composer install --no-dev
 
-chown -R www:www s${APP_PATH}
+chown -R www:www ${APP_PATH}
 
 php artisan key:generate

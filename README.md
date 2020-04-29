@@ -10,8 +10,8 @@
 
 On FreeNAS root shell:
 
-    curl -o /tmp/lychee.json https://raw.githubusercontent.com/waterlou/iocage-plugin-lychee/master/lychee.json
-    iocage fetch -P /tmp/lychee.json
+    curl -o /tmp/heimdall.json https://raw.githubusercontent.com/waterlou/iocage-plugin-heimdall/master/heimdall.json
+    iocage fetch -P /tmp/heimdall.json
 
 Then you should able to see Ghost page at `Plugins -> lychee -> Manage`
 
