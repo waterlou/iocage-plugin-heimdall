@@ -1,0 +1,41 @@
+{
+  "name": "heimdall",
+  "release": "11.3-RELEASE",
+  "artifact": "https://github.com/waterlou/iocage-plugin-heimdall.git",
+  "properties": {
+    "allow_mount_tmpfs": "1",
+	"allow_raw_sockets":"1",
+    "boot":"on",
+    "dhcp":"on",
+    "vnet":"on",
+    "bpf": "yes"
+  },
+  "pkgs": [
+    "www/nginx",
+    "databases/sqlite3",
+    "lang/php74",
+    "lang/php74-extensions",
+    "php74-composer",
+    "php74-zip",
+    "php74-json",
+    "php74-fileinfo",
+    "php74-mbstring",
+    "php74-tokenizer",
+    "php74-openssl",
+    "php74-ctype",
+    "php74-xml",
+    "php74-filter",
+    "php74-pdo_sqlite",
+    "git"
+  ],
+  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
+  "fingerprints": {
+		  "plugin-default": [
+				  {
+				  "function": "sha256",
+				  "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+			  }
+			]
+	},
+	"official": false
+}
