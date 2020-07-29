@@ -1,6 +1,6 @@
 {
   "name": "heimdall",
-  "release": "11.3-RELEASE",
+  "release": "12.1-RELEASE",
   "artifact": "https://github.com/waterlou/iocage-plugin-heimdall.git",
   "properties": {
     "allow_mount_tmpfs": "1",
@@ -28,7 +28,7 @@
     "php72-pdo_sqlite",
     "git"
   ],
-  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/quarterly",
+  "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
   "fingerprints": {
 		  "plugin-default": [
 				  {
